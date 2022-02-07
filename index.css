@@ -1,0 +1,369 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* Nav bar */
+.nav-bar {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+}
+
+.brand-logo {
+  padding: 10px 10%;
+}
+.nav-item {
+  padding: 10px 10%;
+  margin-top: 16px;
+}
+
+.nav-item a {
+  padding-left: 8px;
+  padding-right: 8px;
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: small;
+}
+
+.nav-item .primary-btn:hover {
+  border-bottom: solid black;
+  padding-bottom: 9px;
+  transition-duration: 400ms;
+}
+
+#contact-btn {
+  background-color: black;
+  padding: 10px 10px;
+  border-radius: 4px;
+  color: #e0e0e0;
+}
+
+#contact-btn:hover {
+  background-color: rgb(40, 40, 43);
+  color: #d2d5d9;
+}
+
+#logo-img {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 5%;
+}
+
+/* Hero section */
+
+.hero {
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+.hero-content {
+  width: 40%;
+  background-color: white;
+  padding-top: 15%;
+}
+.hero-right {
+  background-image: url(./images/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 60%;
+  height: 800px;
+}
+
+.hero-text {
+  padding-left: 10%;
+  text-align: center;
+}
+
+.hero-text {
+  font-size: small;
+}
+
+.hero-text h2 {
+  padding-bottom: 25px;
+}
+#my-name {
+  font-weight: bolder;
+  font-size: xx-large;
+}
+
+.portfolio-btn {
+  background-color: black;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: small;
+}
+
+.portfolio-btn:hover {
+  color: #d2d5d9;
+  background-color: #0f1217;
+  font-weight: 600;
+  font-size: small;
+}
+
+.social-media {
+  padding-top: 25%;
+}
+
+.social-media img {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-decoration: none;
+  line-height: 0;
+}
+/* Content */
+
+.actual-content {
+  background-color: #0f1217;
+  width: 100%;
+  height: 750px;
+}
+
+.actual-content h1 {
+  padding-top: 15px;
+  padding-left: 10%;
+  color: white;
+}
+.content {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 3%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-left {
+  width: 45%;
+  height: 600px;
+  color: #0f1217;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 7px 8px #888888;
+}
+
+.content-right {
+  width: 50%;
+  height: 600px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.content-right h4 {
+  padding-left: 60px;
+  padding-top: 40px;
+}
+#my-photo {
+  padding: 60px 60px;
+  width: 78%;
+  height: 80%;
+}
+
+.about-me {
+  padding-left: 60px;
+  padding-right: 60px;
+  padding-top: 30px;
+}
+
+.about-btn {
+  margin-left: 41%;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  color: #0f1217;
+  font-weight: bold;
+}
+
+.about-btn:hover {
+  font-weight: bolder;
+  background-color: #38393a;
+  color: white;
+}
+
+.portfolio-btn-2 {
+  padding-top: 30px;
+}
+
+/* Work */
+
+.work {
+  background-color: white;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#my-work {
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.work-content {
+  padding-left: 10%;
+  padding-right: 10%;
+  display: block;
+  justify-content: space-between;
+}
+
+.card {
+  width: 33%;
+  height: auto;
+  padding: 10px 10px;
+}
+
+.card-set{
+    display: flex;
+}
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.work-btn{
+    padding-top: 20px;
+}
+
+.work-more-btn {
+    margin-left: 48%;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    border:2px solid black
+  }
+  
+  .work-more-btn:hover {
+    background-color: #1a1b1b;
+    color: rgb(212, 209, 209);
+    border: none;
+  }
+
+  /* Gallery */
+
+  
+.gallery {
+    background-color: #0f1217;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  
+  #my-gallery {
+    padding-left: 10%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+  }
+  
+  .gallery-content {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: block;
+    justify-content: space-between;
+  }
+  
+  .gallery-card {
+    width: 33%;
+    height: auto;
+    padding: 10px 10px;
+  }
+  
+  .gallery-card-set{
+      display: flex;
+  }
+  
+  .gallery-card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+  }
+  
+  .gallery-btn{
+      padding-top: 20px;
+  }
+  
+  .gallery-more-btn {
+      margin-left: 48%;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #fff;
+      text-align: center;
+      border:2px solid #fff;
+    }
+    
+    .gallery-more-btn:hover {
+      background-color: #fff;
+      color: #000000;
+      border: none;
+    }
+  
+    /* Contact */
+
+    .contact{
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+
+    .contact-content{
+        padding-left: 10%;
+        padding-top: 30px;
+        padding-right: 10%;
+        padding-bottom: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contact-img{
+        background-color: white;
+        width: 45%;
+        height: 500px;
+    }
+
+    .contact-dummy-img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10%;
+    }
+
+    .contact-form{
+        width: 52%;
+        background-color: #ffffff;
+        border-radius: 5px;
+    }
+
+    .contact-form-content{
+        padding-top: 8%;
+        padding-left: 10%;
+        position: absolute;
+    }
+
+    .contact-form-content h5{
+        text-align: center;
+        position: relative;
+        font-size: xx-large;
+        padding-bottom: 25px;
+    }
+
+    .contact-form-content h6{
+        font-size:medium;
+        padding-bottom: 15px;
+    }
+
+    
